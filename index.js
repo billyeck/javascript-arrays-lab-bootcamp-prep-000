@@ -18,8 +18,7 @@ function destructivelyRemoveFirstKitten(){
   return kittens
 }
 function prependKitten(name){
-  ary=[name, ...kittens]
-  return ary
+  return [name, ...kittens]
 }
 function removeLastKiten(){
   return kittens.slice(0, kittens.length-1)
