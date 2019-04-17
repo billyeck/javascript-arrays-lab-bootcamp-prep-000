@@ -26,3 +26,6 @@ function removeLastKitten(){
 function removeFirstKitten(){
   return kittens.slice(1)
 }
+function appendKitten(name){
+  return [...kittens, name]
+}
